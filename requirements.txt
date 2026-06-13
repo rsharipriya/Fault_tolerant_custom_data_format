@@ -1,0 +1,8 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+# CuPy: install the version matching your CUDA toolkit
+# CUDA 11.x:  pip install cupy-cuda11x
+# CUDA 12.x:  pip install cupy-cuda12x
+# CPU only (slow fallback, no CuPy needed)

@@ -1,0 +1,32 @@
+# Model weights (too large for GitHub)
+*.pth
+*.pt
+*.ckpt
+
+# Dataset
+data/
+tiny-imagenet-200/
+
+# Output files
+*.pdf
+*.png
+*_results.json
+*_heatmap.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
